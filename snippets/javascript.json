@@ -1,0 +1,11 @@
+{
+    "routerBeforeEach": {
+        "prefix": "routerBeforeEach",
+        "body": [
+            "${1:router}.beforeEach((to, from, next) => {",
+            "\t${2:// to and from are both route objects. must call `next`.}",
+            "})$0"
+        ],
+        "description": "router.beforeEach"
+    }
+}
